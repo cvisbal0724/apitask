@@ -28,12 +28,20 @@ DBUSER=user
 DBPASSWORD=password
 DBPORT=5432
 
+```
+
+2. **Correr el proyecto:**
+
+```
 python -m pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+```
 
-2. ** La base datos se encuentra en la carpeta raiz
+2. **Si desea utilizar mi base de datos se encuentra en la carpeta raiz:**
 
+```
 taskdb.backup
 usuario para el login: cvisbal@mail.com
 password: 123456
+```
